@@ -1,86 +1,213 @@
-<!-- README.md – portfolio-centric & recruiter-friendly -->
-
 <div align="center">
-  
-# Hey, I’m **Dheeraj Sharma** 👋  
-*M.C.A.—Manipal University Jaipur | B.C.A.—CCS University*
+
+# Hi there, I'm Dheeraj Sharma 👋
+### *Full-Stack Engineer | Data Architect | AI Specialist*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dheerajsharma2399)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=vercel)](https://dheeraj.dev)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail)](mailto:dheerajofficial2306@gmail.com)
 
 <p>
-  <img src="assets/banner_github.svg" width="90%" alt="Banner showing data pipelines & apps"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Building%20Scalable%20Systems%20&%20Agentic%20AI&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Next.js%20•%20Python%20•%20AWS%20•%20MLOps&descAlignY=55&descAlign=50" width="100%" alt="Header"/>
 </p>
+
 </div>
 
 ---
 
-## 🚀 Quick Facts
-- **Roles:** Data Engineer • Data Analyst • Software Developer  
-- **Current Focus:** Building **agentic-AI workflows** (LangChain + n8n) that automate data-engineering chores & trim delivery time by ⬇️30 %.  
-- **Toolkit Snapshot:** PySpark • Databricks • Airflow • Kafka • AWS • Java • JavaScript/Node.js • MongoDB • Redshift • Oracle Cloud • Python • React • Docker • **Flutter/Dart**  
-- **Philosophy:** Turn messy data into **meaningful products**—with clean code, strong tests & slick dashboards.
+## 🚀 About Me
+I am a **Software Engineer** with ~5 years of experience (including internships) bridging the gap between **scalable backend systems** and **intuitive user interfaces**. 
+
+Currently, I'm building **offline-first PWAs** and **autonomous AI agents** that solve real-world efficiency problems. My engineering philosophy revolves around three pillars: **Latency reduction**, **Data sovereignty**, and **Cost-optimized architecture**.
+
+* 🔭 **Current Focus:** Edge AI deployment & Local RAG systems.
+* 💼 **Experience:** Architecting IoT pipelines processing **20k+ daily events** at *Sonar Instruments*.
+* 🌱 **Learning:** Advanced Rust patterns & Kubernetes operators.
 
 ---
 
-## 🗂️ Project Portfolio – at a Glance
+## 🏆 Project Portfolio
 
-| # | Project | Stack | 1-Line Summary |
-|---|---------|-------|----------------|
-| 1 | **Real-Time IoT Monitoring** | Python · Kafka · Grafana · Docker | Streams 10 K+ garden-sensor events to live dashboards & SMS alerts. |
-| 2 | **Voice Isolation API** | TensorFlow · Librosa · Flask | Deep-learning micro-service filtering speech from heavy noise (87 % SDR). |
-| 3 | **Gym Management App** | Flutter · Firebase · Riverpod | Owner-Trainer-Member super-app with workout builder, attendance logs & chat. |
-| 4 | **Movie Manager** | FastAPI · PostgreSQL · React | Personal media catalog with TMDb sync, watch-list analytics & Docker micro-services. |
-| 5 | **Data Pipeline Playbooks** | Databricks · Delta Lake · Airflow | Re-usable bronze→silver→gold notebooks, SCD-1 merges & unit-tested workflows. |
-| 6 | **Interview-Assist Chrome Ext.** | JavaScript · Web Speech API · OpenAI | Captures live interview Q’s & suggests LLM-powered answers in real time. |
-| 7 | **Legislative Data Loader** | PySpark · Azure Data Factory | Parses 100 K+ XML bills into Delta tables with schema evolution & CDC. |
+<details open>
+<summary><h3>1. 🕉️ OshoApp (Spiritual Audio Platform)</h3></summary>
+<br>
 
-> **Demos & Dashboards**  
-> <p align="left">  
->   <img src="assets/iot_dashboard.gif" width="30%"/>  
->   <img src="assets/gym_demo.gif" width="30%"/>  
->   <img src="assets/pipeline_demo.gif" width="30%"/>  
-> </p>  
-> <sub>*GIFs live under `/assets/` — replace with your own recordings.*</sub>
+**Tech:** `Next.js 15` `React 19` `Supabase` `Meilisearch` `AWS/Dokploy`
+* **Architecture:** Built a high-performance Progressive Web App (PWA) hosting over 5,400 audio discourses.
+* **User Experience:** Engineered a persistent audio player with "karaoke-style" synchronized transcripts that auto-scroll in real-time.
+* **Offline Capability:** Implemented offline-first strategy with Service Workers and IndexedDB (500MB cache limit).
+* **Security:** Secured assets using AES-256-GCM encryption and time-limited signed URLs to prevent scraping.
+* **Infrastructure:** Deployed on self-hosted AWS EC2 instances via Dokploy, reducing cloud costs by ~70%.
+<br>
+</details>
+
+<details>
+<summary><h3>2. 🤖 Telegram Job Scraper Bot v2</h3></summary>
+<br>
+
+**Tech:** `Python` `Telethon` `OpenRouter LLM` `PostgreSQL` `Flask`
+* **Automation:** Monitors multiple high-traffic Telegram channels to source 1,000+ daily job postings.
+* **AI Integration:** Uses OpenRouter LLM APIs to parse unstructured text into structured JSON (Role, Salary, Company).
+* **Data Pipeline:** Architected a fault-tolerant ETL pipeline with dead-letter queues achieving 99.9% reliability.
+* **Management:** Built a Flask-based Kanban dashboard for application tracking and duplicate detection.
+* **Impact:** Reduced manual job searching and data entry time by 90%.
+<br>
+</details>
+
+<details>
+<summary><h3>3. 📊 Dumroo AI Admin Panel</h3></summary>
+<br>
+
+**Tech:** `Streamlit` `LangChain` `Plotly` `Supabase RBAC`
+* **Core Function:** EdTech analytics dashboard enabling natural language querying of student data.
+* **AI Feature:** Implemented Text-to-SQL pipeline enabling non-tech users to query DBs with 85% success.
+* **Visualization:** Integrated Plotly for real-time interactive charts on attendance and performance.
+* **Security:** Enforced strict Role-Based Access Control (RBAC) via Supabase Row Level Security (RLS).
+* **Efficiency:** Cut administrative reporting turnaround time by 60%.
+<br>
+</details>
+
+<details>
+<summary><h3>4. 💰 Asset Tracker</h3></summary>
+<br>
+
+**Tech:** `Next.js 14` `Tailwind` `Supabase Auth` `CoinGecko API`
+* **Tech Stack:** Modern fintech portfolio manager using Next.js 14 App Router and Server Components.
+* **Real-Time Data:** Sub-100ms price updates for crypto/stocks via edge caching and external APIs.
+* **Performance:** Achieved 95+ Lighthouse score by minimizing client-side bundles.
+* **Security:** Secure auth flow with JWT verification protecting all financial data routes.
+* **Reliability:** Robust error handling and optimistic UI updates for seamless UX.
+<br>
+</details>
+
+<details>
+<summary><h3>5. ♻️ End-to-End ML Pipeline (Scrap Classification)</h3></summary>
+<br>
+
+**Tech:** `PyTorch` `ONNX` `OpenCV` `Edge AI`
+* **Model Training:** Fine-tuned ResNet18 on TrashNet achieving ~98% validation accuracy.
+* **Edge Optimization:** Exported models to ONNX to enable deployment on low-power devices like Jetson.
+* **Simulation:** Developed conveyor belt simulation to test model latency in real-time scenarios.
+* **Data Handling:** Applied advanced image augmentation to resolve class imbalances.
+* **Impact:** Demonstrated viable automated sorting reducing manual segregation effort.
+<br>
+</details>
+
+<details>
+<summary><h3>6. 🔐 Financial Document Q&A (Local RAG)</h3></summary>
+<br>
+
+**Tech:** `LangChain` `Ollama` `Mistral-7B` `FAISS`
+* **Privacy First:** Offline RAG system ensuring 100% data sovereignty for sensitive docs.
+* **Ingestion:** Robust pipeline using PyMuPDF to extract text/tables from complex PDFs.
+* **Semantic Search:** Recursive character splitting and dense vector embeddings for natural language queries.
+* **Efficiency:** Reduced financial ratio extraction and analysis time by 80%.
+* **Stack:** Orchestrated with LangChain and FAISS for in-memory vector storage.
+<br>
+</details>
+
+<details>
+<summary><h3>7. 🧠 AI Task Planning Agent</h3></summary>
+<br>
+
+**Tech:** `Python` `Multi-Agent` `DuckDuckGo API` `SQLite`
+* **Agentic Workflow:** Autonomous agent capable of recursive goal decomposition (10+ execution steps).
+* **Tool Use:** Equipped with Search/Weather APIs to verify facts and reduce hallucinations.
+* **Flexibility:** Model-agnostic backend supporting dynamic switching between OpenRouter and local models.
+* **Persistence:** SQLite integration to maintain context and resume complex tasks.
+* **Reliability:** Transformed LLM from passive chatbot to active problem-solving assistant.
+<br>
+</details>
+
+<details>
+<summary><h3>8. ⚡ High-Frequency Trading Bot</h3></summary>
+<br>
+
+**Tech:** `FastAPI` `Redis` `Docker` `AsyncIO`
+* **Latency Engineering:** Executes Market/Limit/Stop-Loss orders with <200ms latency.
+* **Concurrency:** Uses AsyncIO and WebSockets to maintain real-time local order book.
+* **State Management:** Redis in-memory store for sub-millisecond access to open positions.
+* **Reliability:** Dockerized for consistent deployment on Binance Testnet (99.9% uptime).
+* **Risk Control:** Automated local stop-loss triggers reducing risk exposure by 30%.
+<br>
+</details>
+
+<details>
+<summary><h3>9. 🎙️ Voice Data AI/ML Project</h3></summary>
+<br>
+
+**Tech:** `Librosa` `TensorFlow` `FastAPI` `Streamlit`
+* **Objective:** Full-stack audio analysis for emotion detection and speaker identification.
+* **Feature Extraction:** Extracts MFCCs, Chroma, and Mel-Spectrograms from raw audio.
+* **Modeling:** Custom CNNs and RNNs trained on RAVDESS and Common Voice datasets.
+* **Deployment:** Served models via FastAPI with real-time inference capabilities.
+* **Interface:** Streamlit frontend with built-in audio recorder for live demos.
+<br>
+</details>
+
+<details>
+<summary><h3>10. 📈 Bitcoin Sentiment Analysis</h3></summary>
+<br>
+
+**Tech:** `Scikit-learn` `Power BI` `Python`
+* **Data Analysis:** Analyzed 50k+ social/market records to find sentiment-price correlations.
+* **Predictive Modeling:** ML classifiers predicting profitable windows with 82% accuracy.
+* **Visualization:** Comprehensive Power BI dashboards for volatility and performance metrics.
+* **Risk Management:** Logic layer generating risk alerts based on negative sentiment spikes.
+* **Insight Generation:** Actionable insights distinguishing market noise from significant events.
+<br>
+</details>
 
 ---
 
-## 🤖 AI & Automation Highlights
-- **Agentic Pipelines:** LLM-driven decision nodes inside ETL orchestrations (Databricks Workflows + LangChain).  
-- **n8n Playbooks:** 50+ low-code automations for alert routing, data-quality triage & incident summaries.  
-- **ChatOps Bots:** Slack/Teams bots surfacing KPI anomalies & letting stakeholders query the lake in natural language.
+## 🛠️ Technical Arsenal
+
+<div align="left">
+
+**Languages** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+
+**Frontend & Mobile** ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+
+**Backend & Cloud** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+**AI & Data Engineering** ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Meilisearch](https://img.shields.io/badge/Meilisearch-FF5CAA?style=flat&logo=meilisearch&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+
+</div>
 
 ---
 
-## 🛠️ Toolbox
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?logo=apachespark&logoColor=black)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white)
-![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![Amazon Redshift](https://img.shields.io/badge/Amazon%20Redshift-8D0202?logo=amazonaws&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?logo=oracle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=androidstudio&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-A41518?logo=n8n&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-6268FF)
+## ⚡ GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dheerajsharma2399&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dheerajsharma2399&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Top Langs" height="180"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dheerajsharma2399&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" width="100%"/>
+</div>
 
 ---
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dheerajsharma2399&show_icons=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dheerajsharma2399" alt="GitHub Streak"/>
-</p>
+<div align="center">
 
----
+### 🤝 Let's Connect
+*Open to full-time opportunities in Backend Engineering, AI/ML, and Full-Stack Development.*
 
-## 📫 Contact
-**Email:** [dheerajofficial2306@gmail.com](mailto:dheerajofficial2306@gmail.com)
+[**⬇️ Download Resume**](https://dheeraj.dev/resume) • [**💬 WhatsApp Me**](https://wa.me/918860964920)
 
-<p align="right"><sub>Last updated: Aug 2025 — PRs & ideas welcome!</sub></p>
+</div>
