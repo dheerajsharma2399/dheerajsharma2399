@@ -16,7 +16,7 @@
 ---
 
 ## 🚀 About Me
-I am a **Software Engineer** with ~5 years of experience (including internships) bridging the gap between **scalable backend systems** and **intuitive user interfaces**. 
+I am a **Software Engineer** with ~2 years of experience (including internships) bridging the gap between **scalable backend systems** and **intuitive user interfaces**. 
 
 Currently, I'm building **offline-first PWAs** and **autonomous AI agents** that solve real-world efficiency problems. My engineering philosophy revolves around three pillars: **Latency reduction**, **Data sovereignty**, and **Cost-optimized architecture**.
 
