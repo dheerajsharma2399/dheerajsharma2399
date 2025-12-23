@@ -4,7 +4,7 @@
 ### *Full-Stack Engineer | Data Architect | AI Specialist*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dheerajsharma2399)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=vercel)](https://dheeraj.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=vercel)](https://dheeraj.mooh.me)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail)](mailto:dheerajofficial2306@gmail.com)
 
 <p>
